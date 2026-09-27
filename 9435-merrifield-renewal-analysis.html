@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Renewal &amp; Rental Analysis — 9435 Merrifield Street | Verandah Properties</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--teal:#008C82;--teal-deep:#00625B;--gold:#C9A227;--charcoal:#1A1A1A;
+--body:#1F1F1F;--muted:#5A5651;--strong:#0F0F0F;--line:#E2DED7;--paper:#FBFAF7;--panel:#F3F1EC;
+--red:#B5543C;--rose:#D4886F;--green:#4E8C6A;--slate:#6B7C8C}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--body);font-family:'Jost',system-ui,sans-serif;font-weight:400;font-size:16.5px;line-height:1.68}
+.wrap{max-width:900px;margin:0 auto;padding:0 26px}
+h1,h2,h3{font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;color:var(--charcoal)}
+h1{font-size:2.5rem;line-height:1.1;margin:0 0 .4rem}
+h2{font-size:1.8rem;line-height:1.2;margin:0 0 .8rem}
+h3{font-size:1.18rem;margin:1.4rem 0 .45rem}
+p{margin:0 0 1rem;max-width:74ch}
+b,strong{font-weight:600;color:var(--strong)}
+ul{margin:0 0 1rem;padding-left:1.2rem;max-width:74ch}
+li{margin-bottom:.5rem}
+.mast{background:var(--charcoal);color:#F5F3EE;padding:28px 0 30px}
+.brandline{display:flex;align-items:baseline;gap:13px;flex-wrap:wrap}
+.mark{width:33px;height:33px;border-radius:50%;background:var(--teal);color:#fff;font-family:'Cormorant Garamond',serif;font-size:21px;display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto;transform:translateY(5px)}
+.brandname{font-family:'Cormorant Garamond',serif;font-size:1.4rem;color:#F5F3EE}
+.mast .tag{color:#A9A49C;font-size:.83rem;margin-left:auto;text-align:right;line-height:1.5}
+.kicker{color:var(--gold);font-size:.9rem;margin:22px 0 4px}
+.mast h1{color:#FBFAF7;margin-top:4px}
+.mast .sub{color:#B8B2A8;margin:0;font-size:1rem}
+.rec{background:var(--teal);color:#fff;padding:32px 0 30px}
+.rec h2{color:#fff;font-size:1.5rem;margin-bottom:.3rem}
+.rec .lead{color:#D6EDEA;max-width:70ch;margin-bottom:24px}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(255,255,255,.28);border-radius:10px;overflow:hidden}
+.step{background:var(--teal);padding:20px}
+.step .k{font-size:.82rem;color:#CDE8E5;margin-bottom:6px}
+.step .v{font-family:'Cormorant Garamond',serif;font-size:2.4rem;line-height:1;color:#fff}
+.step .n{font-size:.87rem;color:#CDE8E5;margin-top:7px;line-height:1.45}
+.step:first-child{background:var(--teal-deep)}
+section{padding:38px 0;border-top:1px solid var(--line)}
+.snum{color:var(--teal-deep);font-size:.9rem;margin:0 0 .2rem}
+h2 em{font-style:italic;font-weight:400;color:var(--teal-deep)}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));border:1px solid var(--line);border-radius:10px;overflow:hidden;background:#fff;margin:0 0 20px}
+.fact{padding:14px 17px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+.fact .k{font-size:.79rem;color:var(--muted);margin-bottom:2px}
+.fact .v{font-weight:600;color:var(--strong)}
+.confirm{color:#8A6D0B;background:#FBF3D8;padding:1px 7px;border-radius:4px;font-weight:600}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden;margin:0 0 20px}
+.st{background:#fff;padding:18px}
+.st .v{font-family:'Cormorant Garamond',serif;font-size:2rem;line-height:1.05;color:var(--teal-deep)}
+.st .v.warn{color:var(--red)}
+.st .k{font-size:.85rem;color:var(--muted);margin-top:5px;line-height:1.45}
+.pull{border-left:4px solid var(--gold);background:#fff;padding:19px 24px;border-radius:0 8px 8px 0;margin:0 0 22px}
+.pull p:last-child{margin-bottom:0}
+.anchor{background:#fff;border:1px solid var(--line);border-top:4px solid var(--gold);border-radius:10px;padding:22px 26px;margin:0 0 22px}
+.anchor h3{margin-top:0;font-size:1.3rem}
+.anchor .grid{display:grid;grid-template-columns:1fr 1fr;gap:0 24px;margin:14px 0 0}
+.anchor .row{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid var(--line);font-size:.94rem}
+.anchor .row b{color:var(--teal-deep)}
+.box{background:#fff;border:1px solid var(--line);border-radius:10px;padding:21px 24px;margin:0 0 20px}
+.box h3{margin-top:0}
+.box p:last-child{margin-bottom:0}
+details{border:1px solid var(--line);border-radius:9px;background:#fff;margin:0 0 14px}
+summary{cursor:pointer;padding:15px 19px;font-weight:600;color:var(--teal-deep);list-style:none;display:flex;justify-content:space-between;align-items:center;gap:16px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-size:1.45rem;color:var(--gold);line-height:1;flex:0 0 auto}
+details[open] summary::after{content:"\2212"}
+summary:hover{background:var(--panel)}
+.dbody{padding:2px 19px 17px}
+.dbody > *:last-child{margin-bottom:0}
+.tscroll{overflow-x:auto;margin:0 0 14px}
+table{border-collapse:collapse;width:100%;font-size:.88rem;background:#fff;min-width:680px}
+th{background:var(--panel);color:var(--strong);font-weight:600;text-align:left;padding:10px 11px;border-bottom:2px solid var(--line);white-space:nowrap}
+td{padding:10px 11px;border-bottom:1px solid var(--line);vertical-align:top}
+tr.hi td{background:#E6F3F1;font-weight:600}
+tr.gold td{background:#FBF3D8}
+td.num,th.num{text-align:right;white-space:nowrap}
+caption{caption-side:bottom;text-align:left;color:var(--muted);font-size:.86rem;padding-top:9px}
+.pill{display:inline-block;font-size:.77rem;padding:2px 8px;border-radius:20px;font-weight:500}
+.fast{background:#DFF0EC;color:#00625B}.slow{background:#F6E3DE;color:#8A3B26}
+.chart{background:#fff;border:1px solid var(--line);border-radius:10px;padding:24px 26px;margin:0 0 22px}
+.chart h3{margin:0 0 4px}
+.chart .cap{font-size:.9rem;color:var(--muted);margin:0 0 18px}
+.bar{display:grid;grid-template-columns:190px 1fr;gap:13px;align-items:center;margin-bottom:11px;font-size:.9rem}
+.track{background:var(--panel);border-radius:4px;height:26px;overflow:hidden}
+.fill{height:26px;border-radius:4px;display:flex;align-items:center;justify-content:flex-end;padding-right:10px;color:#fff;font-weight:600;font-size:.85rem;white-space:nowrap}
+.fill.t{background:var(--teal)}.fill.g{background:var(--gold)}.fill.r{background:var(--red)}.fill.s{background:var(--slate)}.fill.gr{background:var(--green)}
+.src{font-size:.85rem;color:var(--muted);margin:14px 0 0;padding-top:13px;border-top:1px solid var(--line)}
+footer{background:var(--charcoal);color:#B8B2A8;padding:30px 0;font-size:.89rem}
+footer .sig{font-family:'Cormorant Garamond',serif;font-size:1.2rem;color:var(--gold);margin-bottom:8px}
+footer a{color:#8FD2CB}
+@media(max-width:720px){body{font-size:16px}h1{font-size:1.95rem}h2{font-size:1.45rem}.steps{grid-template-columns:1fr}.anchor .grid{grid-template-columns:1fr}.mast .tag{margin-left:0;width:100%;text-align:left}.bar{grid-template-columns:120px 1fr;font-size:.82rem}}
+@media print{body{background:#fff}section{page-break-inside:avoid}summary::after{content:""}}
+</style>
+</head>
+<body>
+
+<header class="mast">
+  <div class="wrap">
+    <div class="brandline">
+      <span class="mark">V</span>
+      <span class="brandname">Verandah Properties, LLC</span>
+      <span class="tag">Renewal &amp; Rental Analysis<br>September 27, 2026</span>
+    </div>
+    <p class="kicker">Laureate Park · Lake Nona</p>
+    <h1>9435 Merrifield Street</h1>
+    <p class="sub">Orlando, FL 32827 · Single-family, two story · 3 bed / 2.5 bath · 1,787 sq ft · 2-car garage · Built 2018 · Private pool</p>
+  </div>
+</header>
+
+<div class="rec">
+  <div class="wrap">
+    <h2>The situation</h2>
+    <p class="lead">Your residents are approaching the end of their second year at <b style="color:#fff">$3,420</b>, with no increase in either year. You offered to hold the rent flat again. They have countered at <b style="color:#fff">$3,160</b> — a reduction of $260 per month. Their lease ends <b style="color:#fff">November 26, 2026</b>.</p>
+    <p class="lead" style="margin-bottom:0">This analysis answers two questions: what the home would actually rent for today, and what each option costs you.</p>
+  </div>
+</div>
+
+<div class="wrap">
+
+<section style="border-top:none">
+  <p class="snum">Section One</p>
+  <h2>What makes this home <em>different</em></h2>
+  <div class="facts">
+    <div class="fact"><div class="k">Type</div><div class="v">Single-family, 2 story</div></div>
+    <div class="fact"><div class="k">Heated sq ft</div><div class="v">1,787</div></div>
+    <div class="fact"><div class="k">Year built</div><div class="v">2018</div></div>
+    <div class="fact"><div class="k">Garage</div><div class="v">2-car</div></div>
+    <div class="fact"><div class="k">Outdoor</div><div class="v">Private pool with fountain</div></div>
+    <div class="fact"><div class="k">Also</div><div class="v">Outdoor kitchen · glass garage-style patio door</div></div>
+  </div>
+  <p>We reviewed <b>22 comparable rentals</b> in Laureate Park and Lake Nona — every three and four-bedroom home between 1,776 and 2,019 square feet, active and leased, over the past several months.</p>
+
+  <div class="pull">
+    <p><b>Not one of them has a private pool.</b> Not one has an outdoor kitchen. None has anything comparable to the glass garage-style door that opens the living room to the patio.</p>
+  </div>
+
+  <p>That matters more than it would in most communities. Laureate Park is built at high density with small lots, and private pools are genuinely rare here. A renter who wants a pool in this neighborhood has very few places to go — and the ones that exist are typically larger, more expensive homes.</p>
+</section>
+
+<section>
+  <p class="snum">Section Two</p>
+  <h2>What the market is paying</h2>
+  <p>Fifteen homes leased in this size range. We focused on the single-family homes, since eleven of the twenty-two are townhomes and that is a different product.</p>
+
+  <div class="tscroll">
+  <table>
+    <thead><tr><th>Property</th><th class="num">Sq ft</th><th class="num">Built</th><th class="num">Leased</th><th class="num">$/sf</th><th class="num">Days</th><th>Leased</th></tr></thead>
+    <tbody>
+      <tr class="gold"><td>13246 Doisy St</td><td class="num">1,795</td><td class="num">2020</td><td class="num">$3,000</td><td class="num">$1.67</td><td class="num">41</td><td>Aug 10</td></tr>
+      <tr><td>7761 Laureate Blvd</td><td class="num">1,813</td><td class="num">2016</td><td class="num">$3,200</td><td class="num">$1.76</td><td class="num">50</td><td>Aug 3</td></tr>
+      <tr><td>14225 Walcott Ave</td><td class="num">1,819</td><td class="num">2014</td><td class="num">$3,000</td><td class="num">$1.65</td><td class="num"><span class="pill fast">5</span></td><td>Jul 13</td></tr>
+      <tr><td>8017 Nemours Pkwy <span style="color:var(--muted)">(4 bed)</span></td><td class="num">1,950</td><td class="num">2019</td><td class="num">$3,500</td><td class="num">$1.79</td><td class="num"><span class="pill fast">9</span></td><td>Jun 1</td></tr>
+      <tr><td>13372 Stoddart Ave</td><td class="num">1,998</td><td class="num">2019</td><td class="num">$3,300</td><td class="num">$1.65</td><td class="num">11</td><td>Jul 9</td></tr>
+      <tr><td>9097 Smithies St</td><td class="num">2,006</td><td class="num">2016</td><td class="num">$3,495</td><td class="num">$1.74</td><td class="num">15</td><td>Aug 1</td></tr>
+      <tr><td>13808 Chauvin Ave</td><td class="num">2,019</td><td class="num">2018</td><td class="num">$2,999</td><td class="num">$1.49</td><td class="num">49</td><td>Sep 18</td></tr>
+    </tbody>
+    <caption>Single-family leases only. None of these homes has a private pool.</caption>
+  </table>
+  </div>
+
+  <p>Every one of these leased at or within 3% of asking price. Across all 22 listings the average list-to-lease ratio is <b>99.7%</b>. Owners in Laureate Park are not discounting at the table — they are pricing correctly and getting their number.</p>
+</section>
+
+<section>
+  <p class="snum">Section Three</p>
+  <h2>What your home would rent for today</h2>
+  <p>We adjusted three comparable single-family leases to your home, line by line.</p>
+
+  <div class="tscroll">
+  <table>
+    <thead><tr><th>Adjustment</th><th class="num">13246 Doisy</th><th class="num">13372 Stoddart</th><th class="num">13808 Chauvin</th></tr></thead>
+    <tbody>
+      <tr><td>Leased rent</td><td class="num">$3,000</td><td class="num">$3,300</td><td class="num">$2,999</td></tr>
+      <tr><td>Size difference</td><td class="num">$0</td><td class="num">−$105</td><td class="num">−$115</td></tr>
+      <tr><td>Year built</td><td class="num">−$25</td><td class="num">−$10</td><td class="num">$0</td></tr>
+      <tr><td>Private pool with fountain</td><td class="num pos">+$300</td><td class="num pos">+$300</td><td class="num pos">+$300</td></tr>
+      <tr><td>Outdoor kitchen</td><td class="num pos">+$75</td><td class="num pos">+$75</td><td class="num pos">+$75</td></tr>
+      <tr><td>Glass garage-style patio door</td><td class="num pos">+$50</td><td class="num pos">+$50</td><td class="num pos">+$50</td></tr>
+      <tr class="hi"><td>Indication</td><td class="num">$3,400</td><td class="num">$3,610</td><td class="num">$3,309</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <div class="pull">
+    <p>Three independent adjustments indicate a market range of roughly <b>$3,300 to $3,600</b>, with a midpoint near <b>$3,450</b>.</p>
+    <p>Your current rent of <b>$3,420</b> sits squarely inside that range. It is not above market. If anything it is slightly conservative for what this home offers.</p>
+  </div>
+
+  <details>
+    <summary>A note on how we valued the pool</summary>
+    <div class="dbody">
+      <p>We used <b>$300 a month</b> for the private pool, and we want to explain that figure rather than leave it as an assertion.</p>
+      <p>In most Central Florida markets a private pool adds somewhere between $150 and $300 a month. We used the top of that range here for one reason: <b>scarcity</b>. Across 22 comparable Laureate Park rentals, there is no competing product. A renter who wants a pool in this community cannot simply choose a different listing — there isn't one at this size or price.</p>
+      <p>Scarcity is what turns an amenity into leverage. The outdoor kitchen and the glass patio door are valued conservatively at $75 and $50, because while they are genuinely unusual, they appeal to a narrower set of renters than a pool does.</p>
+    </div>
+  </details>
+</section>
+
+<section>
+  <p class="snum">Section Four</p>
+  <h2>What each option <em>actually costs</em></h2>
+  <p>This is the comparison that matters, and it is not close.</p>
+
+  <div class="tscroll">
+  <table>
+    <thead><tr><th>Option</th><th class="num">Monthly</th><th class="num">12-month cost vs. today</th><th>Risk</th></tr></thead>
+    <tbody>
+      <tr><td>Accept the counter</td><td class="num">$3,160</td><td class="num">−$3,120</td><td>None — residents stay, no vacancy, no turn</td></tr>
+      <tr><td>Hold firm and they renew anyway</td><td class="num">$3,420</td><td class="num">$0</td><td>Possible, but unknown</td></tr>
+      <tr class="bad"><td>Hold firm and they leave — 30 days vacant</td><td class="num">$3,420</td><td class="num">−$3,420</td><td>Plus turn costs and leasing fee</td></tr>
+      <tr class="bad"><td>Hold firm and they leave — 45 days vacant</td><td class="num">$3,420</td><td class="num">−$5,130</td><td>Plus turn costs and leasing fee</td></tr>
+      <tr class="bad"><td>Hold firm and they leave — 60 days vacant</td><td class="num">$3,420</td><td class="num">−$6,840</td><td>Plus turn costs and leasing fee</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <div class="big">
+    <div class="n neg">30 days</div>
+    <p>A single vacant month costs <b>$3,420</b> — more than the entire year's concession of $3,120. And that is before make-ready, cleaning, any paint or carpet, and the cost of placing a new resident.</p>
+  </div>
+
+  <p>The break-even is <b>27 days</b>. If losing these residents costs you more than 27 days of vacancy, accepting the reduction was the better financial decision — and that calculation ignores turn costs entirely.</p>
+
+  <h3>And the timing works against us</h3>
+  <p>The lease ends <b>November 26</b> — the day before Thanksgiving, at the front edge of the slowest rental stretch of the year.</p>
+  <p>That cuts both ways, and we want to be honest about both.</p>
+  <ul>
+    <li><b>In your favor:</b> most households do not want to move during the holidays. There is real inertia working for a renewal.</li>
+    <li><b>Against you:</b> if they do leave, the home comes to market in December and January, when the renter pool is at its smallest. The two single-family homes that took longest to lease this year — 41 and 49 days — did so in <b>summer</b>. Winter would likely be slower.</li>
+  </ul>
+</section>
+
+<section>
+  <p class="snum">Section Five</p>
+  <h2>Reading the counter</h2>
+  <p>We cannot know their reasoning, and they are not going to show us their hand. But it is worth understanding the context they are almost certainly operating in.</p>
+  <p>There is a great deal of commentary circulating right now — much of it on social media — that rents have flattened or fallen and that this is a renter's market, and that anyone renewing should counter their landlord. Some of that is true in the aggregate. Central Florida rents have softened.</p>
+
+  <div class="quote" style="border-left:4px solid var(--gold);background:#fff;padding:19px 24px;border-radius:0 8px 8px 0;margin:0 0 20px">
+    <p style="font-family:'Cormorant Garamond',serif;font-size:1.2rem;line-height:1.5;margin:0">What that general advice does not account for is a home like this one. Softening applies to interchangeable product. Your home is not interchangeable in this community.</p>
+  </div>
+
+  <p>If the pool, the outdoor kitchen and the indoor-outdoor living are part of why they stayed two years, they will struggle to replace them in Laureate Park at any price near $3,160. If they have decided those things do not matter to them, that is a different conversation — but they are unlikely to tell us which it is.</p>
+  <p>What we do know is that they countered rather than giving notice. Residents who intend to leave generally leave. Residents who counter are usually trying to stay on better terms.</p>
+</section>
+
+<section>
+  <p class="snum">Section Six</p>
+  <h2>Our recommendation</h2>
+
+  <div class="box">
+    <h3>Counter at $3,300 for an 18-month term</h3>
+    <p>This is the option we would take, and the term matters as much as the number.</p>
+    <p><b>$3,300</b> meets them meaningfully — a $120 reduction, and inside the market range the comparables support. It costs you <b>$1,440</b> over twelve months, less than half of one vacant month.</p>
+    <p><b>An 18-month term moves the lease end to late May 2028</b> — peak rental season — instead of late November. If you are going to concede on rent, buying a better lease-end month is the most valuable thing you can get in return. It is worth far more than the $120 difference.</p>
+  </div>
+
+  <div class="box">
+    <h3>If they hold firm at $3,160, take it — but ask for the term</h3>
+    <p>$3,160 costs you $3,120 across the year. One vacant month costs $3,420, and a December vacancy would likely run longer than that. Accepting is still the better financial outcome than risking a winter turnover.</p>
+    <p>If you accept their number, ask for the 18-month term in exchange. That gives you something real for the concession and moves the next renewal into a much stronger season.</p>
+  </div>
+
+  <div class="box">
+    <h3>What we would not do</h3>
+    <p>We would not hold firm at $3,420 on principle. The market supports that rent — our analysis says it does — but proven residents who pay on time and care for a home are worth more than the last $260, particularly with the lease ending the day before Thanksgiving.</p>
+  </div>
+
+  <p>One more thing worth weighing. These residents have been in place nearly two years with no increase, which means the rent has effectively been declining in real terms for them as well. They are not asking for something unreasonable — they are responding to a market narrative. A modest counter with a longer term acknowledges that without giving away the full $260.</p>
+</section>
+
+<section>
+  <p class="snum">Section Seven</p>
+  <h2>Summary</h2>
+  <ul>
+    <li>Across <b>22 comparable Laureate Park rentals, not one has a private pool</b>, an outdoor kitchen, or anything like the glass patio door. This home is not interchangeable.</li>
+    <li>Three adjusted comparable leases indicate a market range of <b>$3,300 to $3,600</b>. The current $3,420 is squarely within it.</li>
+    <li>Accepting $3,160 costs <b>$3,120</b> over twelve months. <b>One vacant month costs $3,420</b>, before turn costs.</li>
+    <li>The break-even is <b>27 days</b> of vacancy.</li>
+    <li>The lease ends <b>November 26</b>, heading into the slowest season. A winter turnover would likely exceed 30 days.</li>
+    <li><b>Our recommendation: counter at $3,300 with an 18-month term</b>, moving the next lease end to peak season. If they hold firm at $3,160, accept — and still ask for the longer term.</li>
+  </ul>
+</section>
+
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="sig">Curating Lake Nona's Finest Rental Portfolio</div>
+    <p><b>Verandah Properties, LLC</b><br>Pamela Syvertson, Owner &amp; Broker · License CQ1048619 · <a href="tel:4078550331">407-855-0331</a></p>
+    <p style="font-size:.84rem;color:#8C877F;max-width:74ch">Market data sourced from Stellar MLS as of September 27, 2026, and is deemed reliable but not guaranteed. Comparable analysis reflects three and four-bedroom rentals of 1,776 to 2,019 square feet in Laureate Park and Lake Nona. This is an opinion of value, not an appraisal. Vacancy figures exclude make-ready, cleaning and leasing costs.</p>
+  </div>
+</footer>
+
+</body>
+</html>
